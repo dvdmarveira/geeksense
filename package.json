@@ -1,0 +1,17 @@
+{
+  "name": "geeksense-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord para clubes de cultura geek universitária",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@google/generative-ai": "^0.21.0",
+    "mongoose": "^8.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
