@@ -199,7 +199,7 @@ npm start
 - Precisão percebida em contexto geek (testes manuais): **~89%**
 
 ### Exemplos de análise
-![Exemplo - Análise Negativa e Positiva]
+
 <img width="441" height="763" alt="analise geek sense" src="https://github.com/user-attachments/assets/3a65a9ba-0444-4fe3-8de8-571747777e91" />
 
 ---
