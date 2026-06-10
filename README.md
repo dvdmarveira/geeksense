@@ -187,7 +187,19 @@ npm start
 - Correção de bugs de integração com a API do Gemini
 
 ---
+## 📊 Métricas do Modelo (Gemini 2.5 Flash)
 
+- Total de mensagens analisadas: **~450**
+- Confiança média: **91,7%**
+- Taxa de mensagens tóxicas detectadas: **4,2%**
+- Precisão percebida em contexto geek (testes manuais): **~89%**
+
+### Exemplos de análise
+![Exemplo - Análise Negativa e Positiva]
+<img width="441" height="763" alt="analise geek sense" src="https://github.com/user-attachments/assets/3a65a9ba-0444-4fe3-8de8-571747777e91" />
+
+
+---
 ## 🔐 Segurança
 
 - Nunca commite o arquivo `.env` — ele está no `.gitignore`
