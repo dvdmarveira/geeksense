@@ -187,6 +187,14 @@ npm start
 - Correção de bugs de integração com a API do Gemini
 
 ---
+## 🔐 Segurança
+
+- Nunca commite o arquivo `.env` — ele está no `.gitignore`
+- Use o `.env.example` como referência para as variáveis necessárias
+- Revogue e recrie suas chaves caso elas sejam expostas acidentalmente
+
+---
+
 ## 📊 Métricas do Modelo (Gemini 2.5 Flash)
 
 - Total de mensagens analisadas: **45**
@@ -221,13 +229,7 @@ npm start
 - Implementar monitoramento de uso da API e métricas de desempenho do bot.
 - Expandir a análise para imagens, memes e outros conteúdos multimídia.
 ---
-## 🔐 Segurança
 
-- Nunca commite o arquivo `.env` — ele está no `.gitignore`
-- Use o `.env.example` como referência para as variáveis necessárias
-- Revogue e recrie suas chaves caso elas sejam expostas acidentalmente
-
----
 
 ## 📝 Critérios de Sucesso do MVP
 
