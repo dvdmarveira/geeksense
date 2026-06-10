@@ -189,16 +189,37 @@ npm start
 ---
 ## 📊 Métricas do Modelo (Gemini 2.5 Flash)
 
-- Total de mensagens analisadas: **~450**
-- Confiança média: **91,7%**
-- Taxa de mensagens tóxicas detectadas: **4,2%**
+- Total de mensagens analisadas: **45**
+- Mensagens positivas: **13% (6)**
+- Mensagens negativas: **24% (11)**
+- Mensagens neutras: **62% (28)**
+- Taxa de mensagens tóxicas detectadas: **4,44% (2 mensagens)**
+- Canal mais ativo durante os testes: **#bate-papo (23 mensagens)**
+- Usuário mais engajado: **rafaawhite (30 mensagens)**
 - Precisão percebida em contexto geek (testes manuais): **~89%**
 
 ### Exemplos de análise
 ![Exemplo - Análise Negativa e Positiva]
 <img width="441" height="763" alt="analise geek sense" src="https://github.com/user-attachments/assets/3a65a9ba-0444-4fe3-8de8-571747777e91" />
 
+---
+## ⚠️ Limitações Conhecidas
 
+- O projeto depende da disponibilidade da API Gemini para realizar análises de sentimento e respostas no chat.
+- A versão gratuita da API possui limite de requisições, podendo exigir a atualização ou substituição da chave de acesso após atingir a cota disponível.
+- Mensagens com sarcasmo, ironia, memes ou gírias muito recentes podem ser interpretadas de forma incorreta pelo modelo.
+- A detecção de toxicidade pode gerar falsos positivos ou falsos negativos em alguns contextos.
+- O sistema foi validado em ambiente acadêmico e ainda não foi testado em larga escala com grande volume de mensagens simultâneas.
+---
+## 🚀 Melhorias Futuras
+
+- Implementar rotação automática de chaves da API Gemini ao atingir limites de uso.
+- Adicionar cache de análises para reduzir chamadas repetidas à API.
+- Criar dashboard web para visualização de métricas e relatórios.
+- Permitir exportação de relatórios em PDF ou CSV.
+- Aprimorar a detecção de gírias, sarcasmo e contexto cultural brasileiro.
+- Implementar monitoramento de uso da API e métricas de desempenho do bot.
+- Expandir a análise para imagens, memes e outros conteúdos multimídia.
 ---
 ## 🔐 Segurança
 
@@ -217,4 +238,4 @@ npm start
 - [x] Detector de toxicidade com alerta aos admins
 - [x] Dados salvos no MongoDB Atlas
 - [x] Código versionado no GitHub
-- [ ] Deploy 24h no Railway/Render
+- [x] Deploy 24h no Railway/Render
